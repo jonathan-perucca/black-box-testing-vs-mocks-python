@@ -18,6 +18,6 @@ def save_person():
         status = PersonStatus.ACTIVE
     ))
 
-    return jsonify(
-        message = "ok",
-    )
+    return {
+        'message': 'ok'
+    }
